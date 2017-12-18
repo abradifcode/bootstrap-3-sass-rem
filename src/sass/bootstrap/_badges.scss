@@ -6,8 +6,8 @@
 // Base class
 .badge {
   display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
+  min-width: 1rem;
+  padding: .3rem .7rem;
   font-size: $font-size-small;
   font-weight: $badge-font-weight;
   color: $badge-color;
@@ -26,13 +26,13 @@
   // Quick fix for badges in buttons
   .btn & {
     position: relative;
-    top: -1px;
+    top: -.1rem;
   }
 
   .btn-xs &,
   .btn-group-xs > .btn & {
     top: 0;
-    padding: 1px 5px;
+    padding: .1rem .5rem;
   }
 
   // [converter] extracted a& to a.badge
@@ -49,11 +49,11 @@
   }
 
   .list-group-item > & + & {
-    margin-right: 5px;
+    margin-right: .5rem;
   }
 
   .nav-pills > li > a > & {
-    margin-left: 3px;
+    margin-left: .3rem;
   }
 }
 
