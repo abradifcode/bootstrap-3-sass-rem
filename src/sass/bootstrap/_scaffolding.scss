@@ -20,7 +20,7 @@
 // Body reset
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -94,7 +94,7 @@ img {
   padding: $thumbnail-padding;
   line-height: $line-height-base;
   background-color: $thumbnail-bg;
-  border: 1px solid $thumbnail-border;
+  border: 0.1rem solid $thumbnail-border;
   border-radius: $thumbnail-border-radius;
   @include transition(all .2s ease-in-out);
 
@@ -114,7 +114,7 @@ hr {
   margin-top:    $line-height-computed;
   margin-bottom: $line-height-computed;
   border: 0;
-  border-top: 1px solid $hr-border;
+  border-top: 0.1rem solid $hr-border;
 }
 
 
@@ -124,9 +124,9 @@ hr {
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: -0.1rem;
   padding: 0;
   overflow: hidden;
   clip: rect(0,0,0,0);
