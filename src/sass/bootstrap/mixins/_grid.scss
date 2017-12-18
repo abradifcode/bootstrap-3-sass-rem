@@ -23,7 +23,7 @@
   position: relative;
   float: left;
   width: percentage(($columns / $grid-columns));
-  min-height: 1px;
+  min-height: .1rem;
   padding-left:  ($gutter / 2);
   padding-right: ($gutter / 2);
 }
@@ -40,7 +40,7 @@
 // Generate the small columns
 @mixin make-sm-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
-  min-height: 1px;
+  min-height: .1rem;
   padding-left:  ($gutter / 2);
   padding-right: ($gutter / 2);
 
@@ -68,7 +68,7 @@
 // Generate the medium columns
 @mixin make-md-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
-  min-height: 1px;
+  min-height: .1rem;
   padding-left:  ($gutter / 2);
   padding-right: ($gutter / 2);
 
@@ -96,7 +96,7 @@
 // Generate the large columns
 @mixin make-lg-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
-  min-height: 1px;
+  min-height: .1rem;
   padding-left:  ($gutter / 2);
   padding-right: ($gutter / 2);
 
