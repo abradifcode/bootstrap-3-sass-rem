@@ -26,13 +26,13 @@ legend {
   line-height: inherit;
   color: $legend-color;
   border: 0;
-  border-bottom: 1px solid $legend-border-color;
+  border-bottom: .1rem solid $legend-border-color;
 }
 
 label {
   display: inline-block;
   max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
-  margin-bottom: 5px;
+  margin-bottom: .5rem;
   font-weight: bold;
 }
 
@@ -51,8 +51,8 @@ input[type="search"] {
 // Position radios and checkboxes better
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 4px 0 0;
-  margin-top: 1px \9; // IE8-9
+  margin: .4rem 0 0;
+  margin-top: .1rem \9; // IE8-9
   line-height: normal;
 }
 
@@ -121,9 +121,9 @@ output {
   color: $input-color;
   background-color: $input-bg;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border: 1px solid $input-border;
+  border: .1rem solid $input-border;
   border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
-  @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+  @include box-shadow(inset 0 .1rem .1rem rgba(0,0,0,.075));
   @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
 
   // Customize the `:focus` state to imitate native WebKit styles.
@@ -225,12 +225,12 @@ input[type="search"] {
 .checkbox {
   position: relative;
   display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
   label {
     min-height: $line-height-computed; // Ensure the input doesn't jump when there is no text
-    padding-left: 20px;
+    padding-left: 2rem;
     margin-bottom: 0;
     font-weight: normal;
     cursor: pointer;
@@ -241,8 +241,8 @@ input[type="search"] {
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
-  margin-left: -20px;
-  margin-top: 4px \9;
+  margin-left: -2rem;
+  margin-top: .4rem \9;
 }
 
 .radio + .radio,
@@ -255,7 +255,7 @@ input[type="search"] {
 .checkbox-inline {
   position: relative;
   display: inline-block;
-  padding-left: 20px;
+  padding-left: 2rem;
   margin-bottom: 0;
   vertical-align: middle;
   font-weight: normal;
@@ -264,7 +264,7 @@ input[type="search"] {
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
-  margin-left: 10px; // space out consecutive inline controls
+  margin-left: 1rem; // space out consecutive inline controls
 }
 
 // Apply same disabled cursor tweak as for inputs
@@ -452,8 +452,8 @@ input[type="checkbox"] {
 
 .help-block {
   display: block; // account for any element using help-block
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
   color: lighten($text-color, 25%); // lighten the text some for contrast
 }
 
