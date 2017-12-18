@@ -92,24 +92,24 @@ $icon-font-svg-id:        "glyphicons_halflingsregular" !default;
 //
 //## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
 
-$padding-base-vertical:     0.6rem !default;
+$padding-base-vertical:     .6rem !default;
 $padding-base-horizontal:   1.2rem !default;
 
 $padding-large-vertical:    1rem !default;
 $padding-large-horizontal:  1.6rem !default;
 
-$padding-small-vertical:    0.5rem !default;
+$padding-small-vertical:    .5rem !default;
 $padding-small-horizontal:  1rem !default;
 
-$padding-xs-vertical:       0.1rem !default;
-$padding-xs-horizontal:     0.5rem !default;
+$padding-xs-vertical:       .1rem !default;
+$padding-xs-horizontal:     .5rem !default;
 
 $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        0.4rem !default;
-$border-radius-large:       0.6rem !default;
-$border-radius-small:       0.3rem !default;
+$border-radius-base:        .4rem !default;
+$border-radius-large:       .6rem !default;
+$border-radius-small:       .3rem !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
@@ -117,9 +117,9 @@ $component-active-color:    #fff !default;
 $component-active-bg:       $brand-primary !default;
 
 //** Width of the `border` for generating carets that indicate dropdowns.
-$caret-width-base:          0.4rem !default;
+$caret-width-base:          .4rem !default;
 //** Carets increase slightly in size for larger components.
-$caret-width-large:         0.5rem !default;
+$caret-width-large:         .5rem !default;
 
 
 //== Tables
@@ -127,9 +127,9 @@ $caret-width-large:         0.5rem !default;
 //## Customizes the `.table` component with basic values, each used across all table variations.
 
 //** Padding for `<th>`s and `<td>`s.
-$table-cell-padding:            0.8rem !default;
+$table-cell-padding:            .8rem !default;
 //** Padding for cells in `.table-condensed`.
-$table-condensed-cell-padding:  0.5rem !default;
+$table-condensed-cell-padding:  .5rem !default;
 
 //** Default background color used for all tables.
 $table-bg:                      transparent !default;
@@ -531,7 +531,7 @@ $tooltip-bg:                  #000 !default;
 $tooltip-opacity:             .9 !default;
 
 //** Tooltip arrow width
-$tooltip-arrow-width:         0.5rem !default;
+$tooltip-arrow-width:         .5rem !default;
 //** Tooltip arrow color
 $tooltip-arrow-color:         $tooltip-bg !default;
 
@@ -747,7 +747,7 @@ $panel-danger-heading-bg:     $state-danger-bg !default;
 //##
 
 //** Padding around the thumbnail image
-$thumbnail-padding:           0.4rem !default;
+$thumbnail-padding:           .4rem !default;
 //** Thumbnail background color
 $thumbnail-bg:                $body-bg !default;
 //** Thumbnail border color
@@ -758,7 +758,7 @@ $thumbnail-border-radius:     $border-radius-base !default;
 //** Custom text color for thumbnail captions
 $thumbnail-caption-color:     $text-color !default;
 //** Padding around the thumbnail caption
-$thumbnail-caption-padding:   0.9rem !default;
+$thumbnail-caption-padding:   .9rem !default;
 
 
 //== Wells
@@ -792,7 +792,7 @@ $badge-border-radius:         1rem !default;
 //
 //##
 
-$breadcrumb-padding-vertical:   0.8rem !default;
+$breadcrumb-padding-vertical:   .8rem !default;
 $breadcrumb-padding-horizontal: 1.5rem !default;
 //** Breadcrumb background color
 $breadcrumb-bg:                 #f5f5f5 !default;
@@ -808,7 +808,7 @@ $breadcrumb-separator:          "/" !default;
 //
 //##
 
-$carousel-text-shadow:                        0 0.1rem 0.2rem rgba(0,0,0,.6) !default;
+$carousel-text-shadow:                        0 .1rem .2rem rgba(0,0,0,.6) !default;
 
 $carousel-control-color:                      #fff !default;
 $carousel-control-width:                      15% !default;
@@ -827,7 +827,7 @@ $carousel-caption-color:                      #fff !default;
 
 $close-font-weight:           bold !default;
 $close-color:                 #000 !default;
-$close-text-shadow:           0 0.1rem 0 #fff !default;
+$close-text-shadow:           0 .1rem 0 #fff !default;
 
 
 //== Code
