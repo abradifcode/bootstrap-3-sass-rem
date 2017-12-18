@@ -37,7 +37,7 @@
 
     pre,
     blockquote {
-        border: 1px solid #999;
+        border: .1rem solid #999;
         page-break-inside: avoid;
     }
 
@@ -79,7 +79,7 @@
         }
     }
     .label {
-        border: 1px solid #000;
+        border: .1rem solid #000;
     }
 
     .table {
@@ -93,7 +93,7 @@
     .table-bordered {
         th,
         td {
-            border: 1px solid #ddd !important;
+            border: .1rem solid #ddd !important;
         }
     }
 

@@ -74,17 +74,17 @@
 
 // Give the tabs something to sit on
 .nav-tabs {
-  border-bottom: 1px solid $nav-tabs-border-color;
+  border-bottom: .1rem solid $nav-tabs-border-color;
   > li {
     float: left;
     // Make the list-items overlay the bottom border
-    margin-bottom: -1px;
+    margin-bottom: -.1rem;
 
     // Actual tabs (as links)
     > a {
-      margin-right: 2px;
+      margin-right: .2rem;
       line-height: $line-height-base;
-      border: 1px solid transparent;
+      border: .1rem solid transparent;
       border-radius: $border-radius-base $border-radius-base 0 0;
       &:hover {
         border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
@@ -98,7 +98,7 @@
       &:focus {
         color: $nav-tabs-active-link-hover-color;
         background-color: $nav-tabs-active-link-hover-bg;
-        border: 1px solid $nav-tabs-active-link-hover-border-color;
+        border: .1rem solid $nav-tabs-active-link-hover-border-color;
         border-bottom-color: transparent;
         cursor: default;
       }
@@ -123,7 +123,7 @@
       border-radius: $nav-pills-border-radius;
     }
     + li {
-      margin-left: 2px;
+      margin-left: .2rem;
     }
 
     // Active state
@@ -144,7 +144,7 @@
   > li {
     float: none;
     + li {
-      margin-top: 2px;
+      margin-top: .2rem;
       margin-left: 0; // no need for this gap between nav items
     }
   }
@@ -164,7 +164,7 @@
     float: none;
     > a {
       text-align: center;
-      margin-bottom: 5px;
+      margin-bottom: .5rem;
     }
   }
 
@@ -199,12 +199,12 @@
   > .active > a,
   > .active > a:hover,
   > .active > a:focus {
-    border: 1px solid $nav-tabs-justified-link-border-color;
+    border: .1rem solid $nav-tabs-justified-link-border-color;
   }
 
   @media (min-width: $screen-sm-min) {
     > li > a {
-      border-bottom: 1px solid $nav-tabs-justified-link-border-color;
+      border-bottom: .1rem solid $nav-tabs-justified-link-border-color;
       border-radius: $border-radius-base $border-radius-base 0 0;
     }
     > .active > a,
@@ -236,7 +236,7 @@
 // Specific dropdowns
 .nav-tabs .dropdown-menu {
   // make dropdown border overlap tab border
-  margin-top: -1px;
+  margin-top: -.1rem;
   // Remove the top rounded corners here since there is a hard edge above the menu
   @include border-top-radius(0);
 }
