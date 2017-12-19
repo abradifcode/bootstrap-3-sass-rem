@@ -136,7 +136,7 @@ mark,
 // -------------------------
 
 .page-header {
-  padding-bottom: (($line-height-computed / 2) - 1);
+  padding-bottom: (($line-height-computed / 2) - .1rem);
   margin: ($line-height-computed * 2) 0 $line-height-computed;
   border-bottom: .1rem solid $page-header-border-color;
 }
@@ -210,7 +210,7 @@ dd {
   @media (min-width: $dl-horizontal-breakpoint) {
     dt {
       float: left;
-      width: ($dl-horizontal-offset - 20);
+      width: ($dl-horizontal-offset - 2rem);
       clear: left;
       text-align: right;
       @include text-overflow;
