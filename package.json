@@ -28,8 +28,5 @@
     "clean": "rimraf ./dist/*",
     "build": "cross-env NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server"
-  },
-  "dependencies": {
-    "bootstrap-sass": "^3.3.7"
   }
 }
